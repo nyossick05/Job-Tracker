@@ -13,12 +13,3 @@ services:
         value: HS256
       - key: ACCESS_TOKEN_EXPIRE_MINUTES
         value: 60
-```
-
-**2. Make sure your `.gitignore` has `.env`** — you don't want your real credentials pushed to GitHub.
-
-**3. Push the latest backend to GitHub:**
-```
-git add .
-git commit -m "Add render config"
-git push
